@@ -1,0 +1,67 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.form__aut{
+width: 300px;
+text-align: center;
+margin: 0 auto;
+transform: translate(0%,50%);
+font-family: 'Montserrat', sans-serif;
+}
+.form__aut .form__aut-zag{
+    padding-left: 10px;
+    font-size: 30px;
+}
+.form__aut input[type = text],input[type = password],input[type = email]{
+    display: block;
+    width: 310px;
+    height: 40px;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(75, 168, 211);
+    padding: 5px 0px 5px 10px;
+    
+}
+.form__aut button{
+    margin-bottom: 20px;
+    width: 310px;
+    padding: 5px 0px 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: burlywood;
+    border: 1px solid rgb(173, 142, 101);
+}
+.form__aut button:hover{
+    background-color: rgb(218, 191, 155);
+}
+.form__aut a{
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.btn-danger{
+    width: 100px;
+    height: 25px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.table{
+    width: 50%;
+}
+.table>:not(caption)>*>* {
+    padding: .5rem .0rem;;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-style: none;
+}
+.users{
+    display: inline;
+}
+.freinds{
+    display: inline;
+}
+.zag{
+    font-size: 30px;
+}
